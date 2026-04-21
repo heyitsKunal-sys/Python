@@ -20,7 +20,8 @@ class Manager(Programmer):
     c =3   
 
 
-o = Employee()    
+o = Employee()  
+
 print(o.a )       #print attribute
 # print(o.b)        # error: Employee' object has no attribute 'b'
 o1 = Programmer()
