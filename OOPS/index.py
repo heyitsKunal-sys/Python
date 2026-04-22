@@ -79,3 +79,4 @@ kunal.getSalary()
 #         Language is: Python
 # In the above code, we have defined a static method getSalary() that prints the salary and language. We can call this method using the class name or an instance of the class, and it will work without any issues.
 # we dont need to write self parameter as the decorater @staticmethod indicates that the method is a static method and does not require access to instance or class variables.  
+
