@@ -24,4 +24,4 @@ print(score[-2])
 # n= 5
 # list = [2,4,3,5,7]
 # score = sorted(list)
-# print(score[-2])
+# print(score[-2]) this is the simple way to do it
