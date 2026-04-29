@@ -6,6 +6,7 @@ square = lambda x: x*x
 
 sqList = map(square, l)
 print(list(sqList))
+# map is used to apply same operation on each element of a given list
 
 # Filter Example
 def even(n):
