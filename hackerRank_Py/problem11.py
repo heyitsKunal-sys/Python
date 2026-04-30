@@ -7,9 +7,9 @@
 # list =[45,34,23,56,37]
 # print(min(list))
 
-list =[45,34,23,56,37]
-smallest = list[0]
-for l in list :
+nums =[45,34,23,56,37]
+smallest = nums[0]
+for l in nums :
     if (l < smallest):
         smallest = l
 print(smallest)        
