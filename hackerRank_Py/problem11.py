@@ -9,8 +9,8 @@
 
 nums =[45,34,23,56,37]
 smallest = nums[0]
-for l in nums :
-    if (l < smallest):
-        smallest = l
+for num in nums :
+    if (num < smallest):
+        smallest = num
 print(smallest)        
 
