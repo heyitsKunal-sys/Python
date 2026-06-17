@@ -2,7 +2,7 @@
 
 ## 📌 Overview
 
-This repository documents a complete and structured  to mastering Python — starting from fundamental concepts to advanced programming techniques. It is designed for beginners as well as developers aiming to strengthen their core understanding and practical skills in Python.
+This repository documents a complete and structured  to mastering Python — starting from fundamental concepts to advanced programming techniques. It is designed for beginners as well as developers aiming to strengthen their core understanding and practical skills in Python language
 
 ---
 
