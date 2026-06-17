@@ -111,7 +111,7 @@ def function (n):
 n = 10
 function(n)
 
-# Ques 7 : Write a python function to remove a given word from a list and strip it at the same time
+# Ques 7 : Write a python function to remove a given word from a list and strip it at the same time///
 def remove_word():
     word_list = ["apple", "banana", "cherry", "date", "fig", "grape"]
     word_to_remove = input("Enter the word to remove: ")
