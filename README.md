@@ -209,6 +209,6 @@ def count(n):
 ---
 
 
-Consistency is key. Practice daily, build projects, and gradually move from basics to advanced topics.
+Consistency is key. Practice daily, build projects, and gradually move from basics to advanced topics and you will become proficient in Python. Remember, the journey of learning is as important as the destination.
 
 Happy Coding! 🐍
