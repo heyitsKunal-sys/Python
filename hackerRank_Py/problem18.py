@@ -16,3 +16,9 @@ def double(x):
 result = list(map(double , nums3))
 print(result)
 
+# using numpy
+import numpy as np
+numbers = [1,2,3,4,5]
+doubled_numbers = (np.array(numbers)*2).tolist()
+print(doubled_numbers)
+# tolist() converts a NUmpy array into standard list.
