@@ -35,3 +35,9 @@ for i in range(0, len(text),width):
 # 1st iteration range 0 to 4
 # print(text[i:0+4]): 0:4 ABCD now i becomes 4
 # 2nd iteration: i=4 slice text[4:8] and goes on..
+
+text = "ABCDEFGHIJKL"
+chnks = textwrap.wrap(text , width=4)
+print(chnks)
+
+# outoput: ['ABCD', 'DEFG']....SO ON
