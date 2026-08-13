@@ -5,7 +5,7 @@ class Number:
         self.n = n
     
     def __add__(self , num):
-        return self.n + num.n   
+        return self.n + num.n  
     def __sub__(self , num):
         return self.n - num.n       
           
@@ -35,10 +35,10 @@ class Employee:
 
 
 obj = Employee()
- print(obj)                      #google
+print(obj)                      #google
            
                             
- print(len(obj))                  # 6
+print(len(obj))                  # 6
       
     
          

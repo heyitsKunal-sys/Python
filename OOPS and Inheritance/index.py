@@ -2,7 +2,10 @@
 
 class Employee:
     company = "google"          #base class or parent class
-    def show(self):
+    
+    
+    def show(self ):
+        
         print ( f" the name is {self.name } and the salary is {self.salary}")
 
 # class Programmer :
@@ -15,14 +18,15 @@ class Employee:
 
 
 class Programmer(Employee):
-    company = "amazon"
+    # company = "amazon"  b ki company ayegi google kyuki iska parent ki company h google
     def show(self):
         print(f" the name is {self.name} and he is good with {self.language}language")
 
-                                #  inherited class
+                                #  inherited class 
 a = Employee()
+a.name = "kunal"
 b = Programmer()
-print(a.company , b.company )       
+print(a.company , b.company, a.name )       
 
     
     

@@ -15,7 +15,7 @@ print(e.name)                   #output:kunal bhardwaj kyuki name se koi attribu
 # If e = Employee() is an object of class employee, we can print (e.name) to print the 
 # ename by internally calling name() function. 
 
-# property decorator me hume pure function ko call krne ki nee nahi hoti h . ye hume kuch bhi return krva deta hai
+# property decorator me hume pure function ko call krne ki need nahi hoti h . ye hume kuch bhi return krva deta hai
 class Student:
     def get_name(self):
         return "Kunal"

@@ -10,7 +10,7 @@ class Coder:
         print(f"out of all languages here is your language: {self.language}")
 
 class Programmer(Employee, Coder):
-    company : 'amazon'
+    # company : 'amazon'
     def showLanguage(self):
         print(f" the name is {self.company} and he is good with {self.language}language")
 
