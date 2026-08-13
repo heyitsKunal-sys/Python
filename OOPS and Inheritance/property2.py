@@ -36,3 +36,46 @@ print(e.name)
 # when u write e.name = "kunal bhardwaj" because of setter python stores
 # e -> fname= "kunal" lname:"bhardwaj"
 # then when you write print(e.name) @property funtion runs: "fname" + "ename"
+
+class BankAccount:
+    def __init__(self,balance):
+        self._balance = balance
+
+account = BankAccount(5000)
+print(account._balance)    ##5000
+
+# using property:
+class BankAccount1:
+    def __init__(self,balance):
+            self._balance = balance
+    @property
+    def balance(self):
+         return self._balance
+
+account1 = BankAccount1(6000)
+# print(account1._balance)            #6000
+print(account1.balance) #6000
+# property allows you to control what the users sees.
+
+
+class BankAccount2:
+    def __init__(self,balance):
+            self._balance = balance
+    @property
+    def balance(self):
+         return self._balance
+    @balance.setter
+    def balance(self,value):
+         if value < 1000:
+              print("balance is less")
+         else:
+              self._balance = value
+
+account2 = BankAccount2(5000)
+account2.balance =900
+print(account2.balance)              
+# balance is less
+# 5000
+# property + setter means control reading and writing
+
+      
